@@ -3,12 +3,16 @@
   z-index: 3;
   right: 35px;
   top: 35px;
-  cursor: pointer; }
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out; }
   .menu-btn .btn-line {
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff; }
+    background: #fff;
+    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.5s ease-out; }
 
 * {
   box-sizing: border-box; }
@@ -22,8 +26,7 @@ body {
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
-    background-attachment: fixed;
-    background-size: cover; }
+    background-attachment: fixed; }
     body#bg-img:after {
       content: "";
       position: absolute;
@@ -71,7 +74,8 @@ main {
       padding: 0.4rem; }
       main .icons a:hover {
         color: #eece1a;
-        transition: all 0.5s ease-out; }
+        transition: all 0.5s ease-out;
+        -webkit-transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
     main#home h1 {
